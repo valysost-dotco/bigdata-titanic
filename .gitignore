@@ -1,0 +1,24 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos generados/procesados (no versionar datasets pesados)
+data/train_procesado.csv
+
+# Salidas generadas
+outputs/*.png
+
+# Sistema operativo / editor
+.DS_Store
+.vscode/
+.idea/
